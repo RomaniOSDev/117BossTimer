@@ -1,0 +1,6 @@
+framework module Pods_117BossTimer {
+  umbrella header "Pods-117BossTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,33 +3,97 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		746A27EA2F8788500076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A27E12F8788500076A047 /* Assets.xcassets */; };
+		746A27EC2F8788500076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A27E42F8788500076A047 /* LaunchScreen.storyboard */; };
+		746A27ED2F8788500076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A27E62F8788500076A047 /* Main.storyboard */; };
+		746A27EE2F8788500076A047 /* Color+Raid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27B62F8788500076A047 /* Color+Raid.swift */; };
+		746A27EF2F8788500076A047 /* RaidVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27B72F8788500076A047 /* RaidVisualStyle.swift */; };
+		746A27F02F8788500076A047 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27B92F8788500076A047 /* ActivityView.swift */; };
+		746A27F12F8788500076A047 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27BA2F8788500076A047 /* AppExternalLink.swift */; };
+		746A27F22F8788500076A047 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27BB2F8788500076A047 /* DateFormatting.swift */; };
+		746A27F32F8788500076A047 /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27BE2F8788500076A047 /* Boss.swift */; };
+		746A27F42F8788500076A047 /* BossDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27BF2F8788500076A047 /* BossDifficulty.swift */; };
+		746A27F52F8788500076A047 /* BossStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C02F8788500076A047 /* BossStatus.swift */; };
+		746A27F62F8788500076A047 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C12F8788500076A047 /* Game.swift */; };
+		746A27F72F8788500076A047 /* KillLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C22F8788500076A047 /* KillLog.swift */; };
+		746A27F82F8788500076A047 /* NotificationSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C32F8788500076A047 /* NotificationSetting.swift */; };
+		746A27F92F8788500076A047 /* RaidGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C42F8788500076A047 /* RaidGroup.swift */; };
+		746A27FA2F8788500076A047 /* BossCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C72F8788500076A047 /* BossCard.swift */; };
+		746A27FB2F8788500076A047 /* GameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C82F8788500076A047 /* GameCard.swift */; };
+		746A27FC2F8788500076A047 /* GroupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C92F8788500076A047 /* GroupCard.swift */; };
+		746A27FD2F8788500076A047 /* HomeCompactBossRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CA2F8788500076A047 /* HomeCompactBossRow.swift */; };
+		746A27FE2F8788500076A047 /* HomeQuickActionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CB2F8788500076A047 /* HomeQuickActionTile.swift */; };
+		746A27FF2F8788500076A047 /* KillLogCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CC2F8788500076A047 /* KillLogCard.swift */; };
+		746A28002F8788500076A047 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CD2F8788500076A047 /* StatCard.swift */; };
+		746A28012F8788500076A047 /* RaidWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CF2F8788500076A047 /* RaidWatchViewModel.swift */; };
+		746A28022F8788500076A047 /* AddBossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D12F8788500076A047 /* AddBossView.swift */; };
+		746A28032F8788500076A047 /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D22F8788500076A047 /* AddGameView.swift */; };
+		746A28042F8788500076A047 /* AddGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D32F8788500076A047 /* AddGroupView.swift */; };
+		746A28052F8788500076A047 /* BossListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D42F8788500076A047 /* BossListView.swift */; };
+		746A28062F8788500076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D52F8788500076A047 /* ContentView.swift */; };
+		746A28072F8788500076A047 /* GameBossesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D62F8788500076A047 /* GameBossesView.swift */; };
+		746A28082F8788500076A047 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D72F8788500076A047 /* GamesView.swift */; };
+		746A28092F8788500076A047 /* GroupBossesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D82F8788500076A047 /* GroupBossesView.swift */; };
+		746A280A2F8788500076A047 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D92F8788500076A047 /* HomeView.swift */; };
+		746A280B2F8788500076A047 /* KillLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27DA2F8788500076A047 /* KillLogView.swift */; };
+		746A280C2F8788500076A047 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27DB2F8788500076A047 /* OnboardingFlowView.swift */; };
+		746A280D2F8788500076A047 /* RaidGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27DC2F8788500076A047 /* RaidGroupsView.swift */; };
+		746A280E2F8788500076A047 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27DD2F8788500076A047 /* SettingsView.swift */; };
+		746A280F2F8788500076A047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27E02F8788500076A047 /* AppDelegate.swift */; };
+		746A28102F8788500076A047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27E72F8788500076A047 /* SceneDelegate.swift */; };
+		746A28112F8788500076A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27E82F8788500076A047 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		5403CDCECCD8FC59E9959FED /* Pods-117BossTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-117BossTimer.debug.xcconfig"; path = "Target Support Files/Pods-117BossTimer/Pods-117BossTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD4A8B8C93935650B16C117 /* Pods-117BossTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-117BossTimer.release.xcconfig"; path = "Target Support Files/Pods-117BossTimer/Pods-117BossTimer.release.xcconfig"; sourceTree = "<group>"; };
+		695609EBEB8309B0BAAF44F7 /* Pods_117BossTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_117BossTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		746A1A982F839C6F0076A047 /* 117BossTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 117BossTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746A27B62F8788500076A047 /* Color+Raid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Raid.swift"; sourceTree = "<group>"; };
+		746A27B72F8788500076A047 /* RaidVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidVisualStyle.swift; sourceTree = "<group>"; };
+		746A27B92F8788500076A047 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		746A27BA2F8788500076A047 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		746A27BB2F8788500076A047 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		746A27BE2F8788500076A047 /* Boss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
+		746A27BF2F8788500076A047 /* BossDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossDifficulty.swift; sourceTree = "<group>"; };
+		746A27C02F8788500076A047 /* BossStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossStatus.swift; sourceTree = "<group>"; };
+		746A27C12F8788500076A047 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		746A27C22F8788500076A047 /* KillLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillLog.swift; sourceTree = "<group>"; };
+		746A27C32F8788500076A047 /* NotificationSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSetting.swift; sourceTree = "<group>"; };
+		746A27C42F8788500076A047 /* RaidGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidGroup.swift; sourceTree = "<group>"; };
+		746A27C72F8788500076A047 /* BossCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossCard.swift; sourceTree = "<group>"; };
+		746A27C82F8788500076A047 /* GameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCard.swift; sourceTree = "<group>"; };
+		746A27C92F8788500076A047 /* GroupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCard.swift; sourceTree = "<group>"; };
+		746A27CA2F8788500076A047 /* HomeCompactBossRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCompactBossRow.swift; sourceTree = "<group>"; };
+		746A27CB2F8788500076A047 /* HomeQuickActionTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeQuickActionTile.swift; sourceTree = "<group>"; };
+		746A27CC2F8788500076A047 /* KillLogCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillLogCard.swift; sourceTree = "<group>"; };
+		746A27CD2F8788500076A047 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		746A27CF2F8788500076A047 /* RaidWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidWatchViewModel.swift; sourceTree = "<group>"; };
+		746A27D12F8788500076A047 /* AddBossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBossView.swift; sourceTree = "<group>"; };
+		746A27D22F8788500076A047 /* AddGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
+		746A27D32F8788500076A047 /* AddGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupView.swift; sourceTree = "<group>"; };
+		746A27D42F8788500076A047 /* BossListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossListView.swift; sourceTree = "<group>"; };
+		746A27D52F8788500076A047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		746A27D62F8788500076A047 /* GameBossesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBossesView.swift; sourceTree = "<group>"; };
+		746A27D72F8788500076A047 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		746A27D82F8788500076A047 /* GroupBossesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBossesView.swift; sourceTree = "<group>"; };
+		746A27D92F8788500076A047 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		746A27DA2F8788500076A047 /* KillLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillLogView.swift; sourceTree = "<group>"; };
+		746A27DB2F8788500076A047 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		746A27DC2F8788500076A047 /* RaidGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidGroupsView.swift; sourceTree = "<group>"; };
+		746A27DD2F8788500076A047 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		746A27E02F8788500076A047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		746A27E12F8788500076A047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746A27E22F8788500076A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746A27E32F8788500076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746A27E52F8788500076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746A27E72F8788500076A047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		746A27E82F8788500076A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		746A1AAA2F839C710076A047 /* Exceptions for "117BossTimer" folder in "117BossTimer" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 746A1A972F839C6F0076A047 /* 117BossTimer */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		746A1A9A2F839C6F0076A047 /* 117BossTimer */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				746A1AAA2F839C710076A047 /* Exceptions for "117BossTimer" folder in "117BossTimer" target */,
-			);
-			path = 117BossTimer;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		746A1A952F839C6F0076A047 /* Frameworks */ = {
@@ -42,11 +106,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F76AFE06D8E652BA99206CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5403CDCECCD8FC59E9959FED /* Pods-117BossTimer.debug.xcconfig */,
+				5BD4A8B8C93935650B16C117 /* Pods-117BossTimer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		746A1A8F2F839C6F0076A047 = {
 			isa = PBXGroup;
 			children = (
-				746A1A9A2F839C6F0076A047 /* 117BossTimer */,
+				746A27E92F8788500076A047 /* 117BossTimer */,
 				746A1A992F839C6F0076A047 /* Products */,
+				5F76AFE06D8E652BA99206CA /* Pods */,
+				DB66F060E34806746AC6E03F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +133,133 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		746A27B82F8788500076A047 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				746A27B62F8788500076A047 /* Color+Raid.swift */,
+				746A27B72F8788500076A047 /* RaidVisualStyle.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		746A27BC2F8788500076A047 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				746A27B92F8788500076A047 /* ActivityView.swift */,
+				746A27BA2F8788500076A047 /* AppExternalLink.swift */,
+				746A27BB2F8788500076A047 /* DateFormatting.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		746A27BD2F8788500076A047 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				746A27B82F8788500076A047 /* Theme */,
+				746A27BC2F8788500076A047 /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		746A27C52F8788500076A047 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				746A27BE2F8788500076A047 /* Boss.swift */,
+				746A27BF2F8788500076A047 /* BossDifficulty.swift */,
+				746A27C02F8788500076A047 /* BossStatus.swift */,
+				746A27C12F8788500076A047 /* Game.swift */,
+				746A27C22F8788500076A047 /* KillLog.swift */,
+				746A27C32F8788500076A047 /* NotificationSetting.swift */,
+				746A27C42F8788500076A047 /* RaidGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		746A27C62F8788500076A047 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				746A27C52F8788500076A047 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		746A27CE2F8788500076A047 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				746A27C72F8788500076A047 /* BossCard.swift */,
+				746A27C82F8788500076A047 /* GameCard.swift */,
+				746A27C92F8788500076A047 /* GroupCard.swift */,
+				746A27CA2F8788500076A047 /* HomeCompactBossRow.swift */,
+				746A27CB2F8788500076A047 /* HomeQuickActionTile.swift */,
+				746A27CC2F8788500076A047 /* KillLogCard.swift */,
+				746A27CD2F8788500076A047 /* StatCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		746A27D02F8788500076A047 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				746A27CF2F8788500076A047 /* RaidWatchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		746A27DE2F8788500076A047 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				746A27D12F8788500076A047 /* AddBossView.swift */,
+				746A27D22F8788500076A047 /* AddGameView.swift */,
+				746A27D32F8788500076A047 /* AddGroupView.swift */,
+				746A27D42F8788500076A047 /* BossListView.swift */,
+				746A27D52F8788500076A047 /* ContentView.swift */,
+				746A27D62F8788500076A047 /* GameBossesView.swift */,
+				746A27D72F8788500076A047 /* GamesView.swift */,
+				746A27D82F8788500076A047 /* GroupBossesView.swift */,
+				746A27D92F8788500076A047 /* HomeView.swift */,
+				746A27DA2F8788500076A047 /* KillLogView.swift */,
+				746A27DB2F8788500076A047 /* OnboardingFlowView.swift */,
+				746A27DC2F8788500076A047 /* RaidGroupsView.swift */,
+				746A27DD2F8788500076A047 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		746A27DF2F8788500076A047 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				746A27CE2F8788500076A047 /* Components */,
+				746A27D02F8788500076A047 /* ViewModels */,
+				746A27DE2F8788500076A047 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		746A27E92F8788500076A047 /* 117BossTimer */ = {
+			isa = PBXGroup;
+			children = (
+				746A27BD2F8788500076A047 /* Core */,
+				746A27C62F8788500076A047 /* Domain */,
+				746A27DF2F8788500076A047 /* Presentation */,
+				746A27E02F8788500076A047 /* AppDelegate.swift */,
+				746A27E12F8788500076A047 /* Assets.xcassets */,
+				746A27E22F8788500076A047 /* Info.plist */,
+				746A27E42F8788500076A047 /* LaunchScreen.storyboard */,
+				746A27E62F8788500076A047 /* Main.storyboard */,
+				746A27E72F8788500076A047 /* SceneDelegate.swift */,
+				746A27E82F8788500076A047 /* ViewController.swift */,
+			);
+			path = 117BossTimer;
+			sourceTree = "<group>";
+		};
+		DB66F060E34806746AC6E03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				695609EBEB8309B0BAAF44F7 /* Pods_117BossTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 746A1AAB2F839C710076A047 /* Build configuration list for PBXNativeTarget "117BossTimer" */;
 			buildPhases = (
+				45BBC8225BDF345F795B01DF /* [CP] Check Pods Manifest.lock */,
 				746A1A942F839C6F0076A047 /* Sources */,
 				746A1A952F839C6F0076A047 /* Frameworks */,
 				746A1A962F839C6F0076A047 /* Resources */,
@@ -73,12 +276,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				746A1A9A2F839C6F0076A047 /* 117BossTimer */,
-			);
 			name = 117BossTimer;
-			packageProductDependencies = (
-			);
 			productName = 117BossTimer;
 			productReference = 746A1A982F839C6F0076A047 /* 117BossTimer.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +297,7 @@
 				};
 			};
 			buildConfigurationList = 746A1A932F839C6F0076A047 /* Build configuration list for PBXProject "117BossTimer" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +305,6 @@
 				Base,
 			);
 			mainGroup = 746A1A8F2F839C6F0076A047;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 746A1A992F839C6F0076A047 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +319,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A27EA2F8788500076A047 /* Assets.xcassets in Resources */,
+				746A27EC2F8788500076A047 /* LaunchScreen.storyboard in Resources */,
+				746A27ED2F8788500076A047 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45BBC8225BDF345F795B01DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-117BossTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		746A1A942F839C6F0076A047 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A27EE2F8788500076A047 /* Color+Raid.swift in Sources */,
+				746A27EF2F8788500076A047 /* RaidVisualStyle.swift in Sources */,
+				746A27F02F8788500076A047 /* ActivityView.swift in Sources */,
+				746A27F12F8788500076A047 /* AppExternalLink.swift in Sources */,
+				746A27F22F8788500076A047 /* DateFormatting.swift in Sources */,
+				746A27F32F8788500076A047 /* Boss.swift in Sources */,
+				746A27F42F8788500076A047 /* BossDifficulty.swift in Sources */,
+				746A27F52F8788500076A047 /* BossStatus.swift in Sources */,
+				746A27F62F8788500076A047 /* Game.swift in Sources */,
+				746A27F72F8788500076A047 /* KillLog.swift in Sources */,
+				746A27F82F8788500076A047 /* NotificationSetting.swift in Sources */,
+				746A27F92F8788500076A047 /* RaidGroup.swift in Sources */,
+				746A27FA2F8788500076A047 /* BossCard.swift in Sources */,
+				746A27FB2F8788500076A047 /* GameCard.swift in Sources */,
+				746A27FC2F8788500076A047 /* GroupCard.swift in Sources */,
+				746A27FD2F8788500076A047 /* HomeCompactBossRow.swift in Sources */,
+				746A27FE2F8788500076A047 /* HomeQuickActionTile.swift in Sources */,
+				746A27FF2F8788500076A047 /* KillLogCard.swift in Sources */,
+				746A28002F8788500076A047 /* StatCard.swift in Sources */,
+				746A28012F8788500076A047 /* RaidWatchViewModel.swift in Sources */,
+				746A28022F8788500076A047 /* AddBossView.swift in Sources */,
+				746A28032F8788500076A047 /* AddGameView.swift in Sources */,
+				746A28042F8788500076A047 /* AddGroupView.swift in Sources */,
+				746A28052F8788500076A047 /* BossListView.swift in Sources */,
+				746A28062F8788500076A047 /* ContentView.swift in Sources */,
+				746A28072F8788500076A047 /* GameBossesView.swift in Sources */,
+				746A28082F8788500076A047 /* GamesView.swift in Sources */,
+				746A28092F8788500076A047 /* GroupBossesView.swift in Sources */,
+				746A280A2F8788500076A047 /* HomeView.swift in Sources */,
+				746A280B2F8788500076A047 /* KillLogView.swift in Sources */,
+				746A280C2F8788500076A047 /* OnboardingFlowView.swift in Sources */,
+				746A280D2F8788500076A047 /* RaidGroupsView.swift in Sources */,
+				746A280E2F8788500076A047 /* SettingsView.swift in Sources */,
+				746A280F2F8788500076A047 /* AppDelegate.swift in Sources */,
+				746A28102F8788500076A047 /* SceneDelegate.swift in Sources */,
+				746A28112F8788500076A047 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		746A27E42F8788500076A047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A27E32F8788500076A047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		746A27E62F8788500076A047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A27E52F8788500076A047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		746A1AAC2F839C710076A047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5403CDCECCD8FC59E9959FED /* Pods-117BossTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +428,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 117BossTimer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BossTimer - Raids";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-17BossTimer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.era.b00sst3m5rr39ds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		746A1AAD2F839C710076A047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD4A8B8C93935650B16C117 /* Pods-117BossTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +466,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 117BossTimer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BossTimer - Raids";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-17BossTimer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.era.b00sst3m5rr39ds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
