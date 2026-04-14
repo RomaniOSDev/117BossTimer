@@ -48,14 +48,6 @@ struct BossListView: View {
                                     }
                                     .tint(.raidWaiting)
                                 }
-                                .contextMenu {
-                                    Button {
-                                        Task { await viewModel.startLiveActivity(for: boss) }
-                                    } label: {
-                                        Label("Live countdown", systemImage: "dot.scope.display")
-                                    }
-                                    .disabled(!LiveActivityController.activitiesEnabled)
-                                }
                         }
                     }
                     .scrollContentBackground(.hidden)
@@ -63,7 +55,7 @@ struct BossListView: View {
                 }
             }
             .navigationTitle("All bosses")
-            .navigationBarTitleDisplayMode(.large)
+            .navigationBarTitleDisplayMode(.inline)
             .toolbarBackground(Color.raidBackground.opacity(0.92), for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .toolbar {

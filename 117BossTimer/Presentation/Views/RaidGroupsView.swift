@@ -70,7 +70,7 @@ struct RaidGroupsView: View {
                 .listStyle(.plain)
             }
             .navigationTitle("Raid groups")
-            .navigationBarTitleDisplayMode(.large)
+            .navigationBarTitleDisplayMode(.inline)
             .toolbarBackground(Color.raidBackground.opacity(0.92), for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .tint(.raidActive)

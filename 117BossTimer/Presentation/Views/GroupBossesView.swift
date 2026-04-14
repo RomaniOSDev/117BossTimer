@@ -88,7 +88,7 @@ struct GroupBossesView: View {
             }
         }
         .navigationTitle(displayName)
-        .navigationBarTitleDisplayMode(.large)
+        .navigationBarTitleDisplayMode(.inline)
         .toolbarBackground(Color.raidBackground.opacity(0.92), for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
         .tint(.raidActive)

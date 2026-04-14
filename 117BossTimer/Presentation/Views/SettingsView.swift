@@ -108,7 +108,7 @@ struct SettingsView: View {
                 }
             }
             .navigationTitle("Settings")
-            .navigationBarTitleDisplayMode(.large)
+            .navigationBarTitleDisplayMode(.inline)
             .toolbarBackground(Color.raidBackground.opacity(0.92), for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .tint(.raidActive)

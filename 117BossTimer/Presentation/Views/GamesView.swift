@@ -70,7 +70,7 @@ struct GamesView: View {
                 .listStyle(.plain)
             }
             .navigationTitle("My games")
-            .navigationBarTitleDisplayMode(.large)
+            .navigationBarTitleDisplayMode(.inline)
             .toolbarBackground(Color.raidBackground.opacity(0.92), for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .tint(.raidActive)

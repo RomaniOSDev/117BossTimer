@@ -109,7 +109,7 @@ struct OnboardingFlowView: View {
                     .foregroundColor(.white)
                     .fixedSize(horizontal: false, vertical: true)
 
-                Text("Load five demo bosses, a raid group, raid-night schedule, and sample history for charts — perfect for exploring Plan, widgets, and Live Activities.")
+                Text("Load five demo bosses, a raid group, raid-night schedule, and sample history for charts — perfect for exploring Plan and statistics.")
                     .font(.body)
                     .foregroundColor(.gray)
                     .fixedSize(horizontal: false, vertical: true)

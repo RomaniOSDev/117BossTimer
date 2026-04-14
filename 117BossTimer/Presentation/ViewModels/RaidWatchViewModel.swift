@@ -29,7 +29,7 @@ final class RaidWatchViewModel: ObservableObject {
     private let raidNightKey = "raidwatch_raidNight"
     private let killLogsMigrationKey = "raidwatch_migrated_kill_logs_v1"
 
-    private var persistence: UserDefaults { AppConfiguration.sharedDefaults }
+    private var persistence: UserDefaults { UserDefaults.standard }
 
     init() {
         tick = Timer.publish(every: 30, on: .main, in: .common)
@@ -37,7 +37,6 @@ final class RaidWatchViewModel: ObservableObject {
             .sink { [weak self] date in
                 guard let self else { return }
                 self.referenceDate = date
-                WidgetSnapshotWriter.write(bosses: self.bosses, reference: date)
             }
     }
 
@@ -356,14 +355,6 @@ final class RaidWatchViewModel: ObservableObject {
         saveToUserDefaults()
     }
 
-    func startLiveActivity(for boss: Boss) async {
-        await LiveActivityController.startCountdown(
-            for: boss,
-            reminderMinutes: reminderMinutes,
-            notificationsEnabled: notificationsEnabled
-        )
-    }
-
     private func scheduleNotification(for boss: Boss) {
         guard notificationsEnabled, let nextRespawn = boss.nextRespawnTime(reference: Date()) else { return }
 
@@ -415,24 +406,10 @@ final class RaidWatchViewModel: ObservableObject {
         if let encoded = try? JSONEncoder().encode(raidNightSchedule) {
             persistence.set(encoded, forKey: raidNightKey)
         }
-
-        mirrorToStandardUserDefaults()
-        WidgetSnapshotWriter.write(bosses: bosses, reference: referenceDate)
-    }
-
-    /// Legacy installs wrote to `UserDefaults.standard`; keep a mirror so older paths still see keys if needed.
-    private func mirrorToStandardUserDefaults() {
-        let s = UserDefaults.standard
-        if let d = persistence.data(forKey: gamesKey) { s.set(d, forKey: gamesKey) }
-        if let d = persistence.data(forKey: bossesKey) { s.set(d, forKey: bossesKey) }
-        if let d = persistence.data(forKey: groupsKey) { s.set(d, forKey: groupsKey) }
-        if let d = persistence.data(forKey: killLogsKey) { s.set(d, forKey: killLogsKey) }
-        if let d = persistence.data(forKey: settingsKey) { s.set(d, forKey: settingsKey) }
-        if let d = persistence.data(forKey: raidNightKey) { s.set(d, forKey: raidNightKey) }
     }
 
     func loadFromUserDefaults() {
-        migrateLegacyDefaultsIntoAppGroupIfNeeded()
+        migrateLegacyDefaultsIfNeeded()
 
         if let data = persistence.data(forKey: gamesKey),
            let decoded = try? JSONDecoder().decode([Game].self, from: data) {
@@ -491,15 +468,15 @@ final class RaidWatchViewModel: ObservableObject {
             saveToUserDefaults()
         }
 
-        WidgetSnapshotWriter.write(bosses: bosses, reference: referenceDate)
     }
 
-    private func migrateLegacyDefaultsIntoAppGroupIfNeeded() {
-        let legacy = UserDefaults.standard
+    /// One-time copy from the former App Group `UserDefaults` suite into standard defaults.
+    private func migrateLegacyDefaultsIfNeeded() {
         guard persistence.data(forKey: gamesKey) == nil,
-              legacy.data(forKey: gamesKey) != nil else { return }
+              let suite = UserDefaults(suiteName: "group.com.era.b00sst3m5rr39ds.raidwatch"),
+              suite.data(forKey: gamesKey) != nil else { return }
         for key in [gamesKey, bossesKey, groupsKey, killLogsKey, settingsKey, raidNightKey, killLogsMigrationKey] {
-            if let v = legacy.object(forKey: key) {
+            if let v = suite.object(forKey: key) {
                 persistence.set(v, forKey: key)
             }
         }

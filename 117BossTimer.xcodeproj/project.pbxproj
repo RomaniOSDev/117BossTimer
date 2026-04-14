@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		307E58CA2F8E9FA20096FDB9 /* LiveActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58882F8E9FA20096FDB9 /* LiveActivityController.swift */; };
-		307E58CB2F8E9FA20096FDB9 /* RespawnActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58892F8E9FA20096FDB9 /* RespawnActivityAttributes.swift */; };
 		307E58CC2F8E9FA20096FDB9 /* Color+Raid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588B2F8E9FA20096FDB9 /* Color+Raid.swift */; };
 		307E58CD2F8E9FA20096FDB9 /* RaidVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588C2F8E9FA20096FDB9 /* RaidVisualStyle.swift */; };
 		307E58CE2F8E9FA20096FDB9 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588E2F8E9FA20096FDB9 /* ActivityView.swift */; };
 		307E58CF2F8E9FA20096FDB9 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588F2F8E9FA20096FDB9 /* AppExternalLink.swift */; };
 		307E58D02F8E9FA20096FDB9 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58902F8E9FA20096FDB9 /* DateFormatting.swift */; };
-		307E58D12F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58922F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift */; };
-		307E58D22F8E9FA20096FDB9 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58942F8E9FA20096FDB9 /* AppConfiguration.swift */; };
 		307E58D32F8E9FA20096FDB9 /* BossTemplateCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58962F8E9FA20096FDB9 /* BossTemplateCatalog.swift */; };
 		307E58D42F8E9FA20096FDB9 /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58982F8E9FA20096FDB9 /* Boss.swift */; };
 		307E58D52F8E9FA20096FDB9 /* BossDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58992F8E9FA20096FDB9 /* BossDifficulty.swift */; };
@@ -56,51 +52,14 @@
 		307E58F82F8E9FA20096FDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307E58C12F8E9FA20096FDB9 /* Assets.xcassets */; };
 		307E58FA2F8E9FA20096FDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E58C42F8E9FA20096FDB9 /* LaunchScreen.storyboard */; };
 		307E58FB2F8E9FA20096FDB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E58C62F8E9FA20096FDB9 /* Main.storyboard */; };
-		307E59072F8E9FA90096FDB9 /* BossTimerWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58FD2F8E9FA90096FDB9 /* BossTimerWidgets.swift */; };
-		307E59082F8E9FA90096FDB9 /* FavoritesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58FE2F8E9FA90096FDB9 /* FavoritesWidget.swift */; };
-		307E59092F8E9FA90096FDB9 /* InWindowWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59002F8E9FA90096FDB9 /* InWindowWidget.swift */; };
-		307E590A2F8E9FA90096FDB9 /* NextRespawnsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59012F8E9FA90096FDB9 /* NextRespawnsWidget.swift */; };
-		307E590B2F8E9FA90096FDB9 /* RespawnActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59022F8E9FA90096FDB9 /* RespawnActivityAttributes.swift */; };
-		307E590C2F8E9FA90096FDB9 /* RespawnLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59032F8E9FA90096FDB9 /* RespawnLiveActivity.swift */; };
-		307E590D2F8E9FA90096FDB9 /* SharedSnapshotModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59042F8E9FA90096FDB9 /* SharedSnapshotModels.swift */; };
-		307E590E2F8E9FA90096FDB9 /* WidgetAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59052F8E9FA90096FDB9 /* WidgetAppearance.swift */; };
-		A1B000082F839C6F0076A047 /* BossTimerWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A1B000032F839C6F0076A047 /* BossTimerWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A1B000092F839C6F0076A047 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 746A1A902F839C6F0076A047 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A1B000012F839C6F0076A047;
-			remoteInfo = BossTimerWidgets;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A1B000072F839C6F0076A047 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				A1B000082F839C6F0076A047 /* BossTimerWidgets.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		307E58882F8E9FA20096FDB9 /* LiveActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityController.swift; sourceTree = "<group>"; };
-		307E58892F8E9FA20096FDB9 /* RespawnActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespawnActivityAttributes.swift; sourceTree = "<group>"; };
 		307E588B2F8E9FA20096FDB9 /* Color+Raid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Raid.swift"; sourceTree = "<group>"; };
 		307E588C2F8E9FA20096FDB9 /* RaidVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidVisualStyle.swift; sourceTree = "<group>"; };
 		307E588E2F8E9FA20096FDB9 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		307E588F2F8E9FA20096FDB9 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
 		307E58902F8E9FA20096FDB9 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
-		307E58922F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotWriter.swift; sourceTree = "<group>"; };
-		307E58942F8E9FA20096FDB9 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		307E58962F8E9FA20096FDB9 /* BossTemplateCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossTemplateCatalog.swift; sourceTree = "<group>"; };
 		307E58982F8E9FA20096FDB9 /* Boss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
 		307E58992F8E9FA20096FDB9 /* BossDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossDifficulty.swift; sourceTree = "<group>"; };
@@ -135,7 +94,6 @@
 		307E58BA2F8E9FA20096FDB9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		307E58BB2F8E9FA20096FDB9 /* StatisticsDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsDashboardView.swift; sourceTree = "<group>"; };
 		307E58BC2F8E9FA20096FDB9 /* TemplateLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateLibraryView.swift; sourceTree = "<group>"; };
-		307E58BF2F8E9FA20096FDB9 /* 117BossTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 117BossTimer.entitlements; sourceTree = "<group>"; };
 		307E58C02F8E9FA20096FDB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		307E58C12F8E9FA20096FDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		307E58C22F8E9FA20096FDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,21 +101,10 @@
 		307E58C52F8E9FA20096FDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		307E58C72F8E9FA20096FDB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		307E58C82F8E9FA20096FDB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		307E58FC2F8E9FA90096FDB9 /* BossTimerWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BossTimerWidgets.entitlements; sourceTree = "<group>"; };
-		307E58FD2F8E9FA90096FDB9 /* BossTimerWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossTimerWidgets.swift; sourceTree = "<group>"; };
-		307E58FE2F8E9FA90096FDB9 /* FavoritesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesWidget.swift; sourceTree = "<group>"; };
-		307E58FF2F8E9FA90096FDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		307E59002F8E9FA90096FDB9 /* InWindowWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InWindowWidget.swift; sourceTree = "<group>"; };
-		307E59012F8E9FA90096FDB9 /* NextRespawnsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRespawnsWidget.swift; sourceTree = "<group>"; };
-		307E59022F8E9FA90096FDB9 /* RespawnActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespawnActivityAttributes.swift; sourceTree = "<group>"; };
-		307E59032F8E9FA90096FDB9 /* RespawnLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespawnLiveActivity.swift; sourceTree = "<group>"; };
-		307E59042F8E9FA90096FDB9 /* SharedSnapshotModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedSnapshotModels.swift; sourceTree = "<group>"; };
-		307E59052F8E9FA90096FDB9 /* WidgetAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetAppearance.swift; sourceTree = "<group>"; };
 		5403CDCECCD8FC59E9959FED /* Pods-117BossTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-117BossTimer.debug.xcconfig"; path = "Target Support Files/Pods-117BossTimer/Pods-117BossTimer.debug.xcconfig"; sourceTree = "<group>"; };
 		5BD4A8B8C93935650B16C117 /* Pods-117BossTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-117BossTimer.release.xcconfig"; path = "Target Support Files/Pods-117BossTimer/Pods-117BossTimer.release.xcconfig"; sourceTree = "<group>"; };
 		695609EBEB8309B0BAAF44F7 /* Pods_117BossTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_117BossTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		746A1A982F839C6F0076A047 /* 117BossTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 117BossTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1B000032F839C6F0076A047 /* BossTimerWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BossTimerWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,25 +115,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1B000052F839C6F0076A047 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		307E588A2F8E9FA20096FDB9 /* LiveActivity */ = {
-			isa = PBXGroup;
-			children = (
-				307E58882F8E9FA20096FDB9 /* LiveActivityController.swift */,
-				307E58892F8E9FA20096FDB9 /* RespawnActivityAttributes.swift */,
-			);
-			path = LiveActivity;
-			sourceTree = "<group>";
-		};
 		307E588D2F8E9FA20096FDB9 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,22 +137,11 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		307E58932F8E9FA20096FDB9 /* WidgetSupport */ = {
-			isa = PBXGroup;
-			children = (
-				307E58922F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift */,
-			);
-			path = WidgetSupport;
-			sourceTree = "<group>";
-		};
 		307E58952F8E9FA20096FDB9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				307E588A2F8E9FA20096FDB9 /* LiveActivity */,
 				307E588D2F8E9FA20096FDB9 /* Theme */,
 				307E58912F8E9FA20096FDB9 /* Utilities */,
-				307E58932F8E9FA20096FDB9 /* WidgetSupport */,
-				307E58942F8E9FA20096FDB9 /* AppConfiguration.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -320,7 +240,6 @@
 				307E58952F8E9FA20096FDB9 /* Core */,
 				307E58A12F8E9FA20096FDB9 /* Domain */,
 				307E58BE2F8E9FA20096FDB9 /* Presentation */,
-				307E58BF2F8E9FA20096FDB9 /* 117BossTimer.entitlements */,
 				307E58C02F8E9FA20096FDB9 /* AppDelegate.swift */,
 				307E58C12F8E9FA20096FDB9 /* Assets.xcassets */,
 				307E58C22F8E9FA20096FDB9 /* Info.plist */,
@@ -330,23 +249,6 @@
 				307E58C82F8E9FA20096FDB9 /* ViewController.swift */,
 			);
 			path = 117BossTimer;
-			sourceTree = "<group>";
-		};
-		307E59062F8E9FA90096FDB9 /* BossTimerWidgets */ = {
-			isa = PBXGroup;
-			children = (
-				307E58FC2F8E9FA90096FDB9 /* BossTimerWidgets.entitlements */,
-				307E58FD2F8E9FA90096FDB9 /* BossTimerWidgets.swift */,
-				307E58FE2F8E9FA90096FDB9 /* FavoritesWidget.swift */,
-				307E58FF2F8E9FA90096FDB9 /* Info.plist */,
-				307E59002F8E9FA90096FDB9 /* InWindowWidget.swift */,
-				307E59012F8E9FA90096FDB9 /* NextRespawnsWidget.swift */,
-				307E59022F8E9FA90096FDB9 /* RespawnActivityAttributes.swift */,
-				307E59032F8E9FA90096FDB9 /* RespawnLiveActivity.swift */,
-				307E59042F8E9FA90096FDB9 /* SharedSnapshotModels.swift */,
-				307E59052F8E9FA90096FDB9 /* WidgetAppearance.swift */,
-			);
-			path = BossTimerWidgets;
 			sourceTree = "<group>";
 		};
 		5F76AFE06D8E652BA99206CA /* Pods */ = {
@@ -362,7 +264,6 @@
 			isa = PBXGroup;
 			children = (
 				307E58C92F8E9FA20096FDB9 /* 117BossTimer */,
-				307E59062F8E9FA90096FDB9 /* BossTimerWidgets */,
 				746A1A992F839C6F0076A047 /* Products */,
 				5F76AFE06D8E652BA99206CA /* Pods */,
 				DB66F060E34806746AC6E03F /* Frameworks */,
@@ -373,7 +274,6 @@
 			isa = PBXGroup;
 			children = (
 				746A1A982F839C6F0076A047 /* 117BossTimer.app */,
-				A1B000032F839C6F0076A047 /* BossTimerWidgets.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -397,12 +297,10 @@
 				746A1A942F839C6F0076A047 /* Sources */,
 				746A1A952F839C6F0076A047 /* Frameworks */,
 				746A1A962F839C6F0076A047 /* Resources */,
-				A1B000072F839C6F0076A047 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1B0000A2F839C6F0076A047 /* PBXTargetDependency */,
 			);
 			name = 117BossTimer;
 			packageProductDependencies = (
@@ -410,25 +308,6 @@
 			productName = 117BossTimer;
 			productReference = 746A1A982F839C6F0076A047 /* 117BossTimer.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A1B000012F839C6F0076A047 /* BossTimerWidgets */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A1B0000D2F839C6F0076A047 /* Build configuration list for PBXNativeTarget "BossTimerWidgets" */;
-			buildPhases = (
-				A1B000042F839C6F0076A047 /* Sources */,
-				A1B000052F839C6F0076A047 /* Frameworks */,
-				A1B000062F839C6F0076A047 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BossTimerWidgets;
-			packageProductDependencies = (
-			);
-			productName = BossTimerWidgets;
-			productReference = A1B000032F839C6F0076A047 /* BossTimerWidgets.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -441,9 +320,6 @@
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					746A1A972F839C6F0076A047 = {
-						CreatedOnToolsVersion = 26.2;
-					};
-					A1B000012F839C6F0076A047 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
@@ -462,7 +338,6 @@
 			projectRoot = "";
 			targets = (
 				746A1A972F839C6F0076A047 /* 117BossTimer */,
-				A1B000012F839C6F0076A047 /* BossTimerWidgets */,
 			);
 		};
 /* End PBXProject section */
@@ -475,13 +350,6 @@
 				307E58F82F8E9FA20096FDB9 /* Assets.xcassets in Resources */,
 				307E58FA2F8E9FA20096FDB9 /* LaunchScreen.storyboard in Resources */,
 				307E58FB2F8E9FA20096FDB9 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1B000062F839C6F0076A047 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,15 +385,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307E58CA2F8E9FA20096FDB9 /* LiveActivityController.swift in Sources */,
-				307E58CB2F8E9FA20096FDB9 /* RespawnActivityAttributes.swift in Sources */,
 				307E58CC2F8E9FA20096FDB9 /* Color+Raid.swift in Sources */,
 				307E58CD2F8E9FA20096FDB9 /* RaidVisualStyle.swift in Sources */,
 				307E58CE2F8E9FA20096FDB9 /* ActivityView.swift in Sources */,
 				307E58CF2F8E9FA20096FDB9 /* AppExternalLink.swift in Sources */,
 				307E58D02F8E9FA20096FDB9 /* DateFormatting.swift in Sources */,
-				307E58D12F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift in Sources */,
-				307E58D22F8E9FA20096FDB9 /* AppConfiguration.swift in Sources */,
 				307E58D32F8E9FA20096FDB9 /* BossTemplateCatalog.swift in Sources */,
 				307E58D42F8E9FA20096FDB9 /* Boss.swift in Sources */,
 				307E58D52F8E9FA20096FDB9 /* BossDifficulty.swift in Sources */,
@@ -566,30 +430,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1B000042F839C6F0076A047 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				307E59072F8E9FA90096FDB9 /* BossTimerWidgets.swift in Sources */,
-				307E59082F8E9FA90096FDB9 /* FavoritesWidget.swift in Sources */,
-				307E59092F8E9FA90096FDB9 /* InWindowWidget.swift in Sources */,
-				307E590A2F8E9FA90096FDB9 /* NextRespawnsWidget.swift in Sources */,
-				307E590B2F8E9FA90096FDB9 /* RespawnActivityAttributes.swift in Sources */,
-				307E590C2F8E9FA90096FDB9 /* RespawnLiveActivity.swift in Sources */,
-				307E590D2F8E9FA90096FDB9 /* SharedSnapshotModels.swift in Sources */,
-				307E590E2F8E9FA90096FDB9 /* WidgetAppearance.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A1B0000A2F839C6F0076A047 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A1B000012F839C6F0076A047 /* BossTimerWidgets */;
-			targetProxy = A1B000092F839C6F0076A047 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		307E58C42F8E9FA20096FDB9 /* LaunchScreen.storyboard */ = {
@@ -617,16 +458,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = 117BossTimer/117BossTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 117BossTimer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BossTimer - Raids";
-				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
@@ -657,16 +495,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = 117BossTimer/117BossTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 117BossTimer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BossTimer - Raids";
-				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
@@ -810,78 +645,6 @@
 			};
 			name = Release;
 		};
-		A1B0000B2F839C6F0076A047 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_ENTITLEMENTS = BossTimerWidgets/BossTimerWidgets.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = BossTimerWidgets/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.era.b00sst3m5rr39ds.widgets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		A1B0000C2F839C6F0076A047 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_ENTITLEMENTS = BossTimerWidgets/BossTimerWidgets.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = BossTimerWidgets/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.era.b00sst3m5rr39ds.widgets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -899,15 +662,6 @@
 			buildConfigurations = (
 				746A1AAC2F839C710076A047 /* Debug */,
 				746A1AAD2F839C710076A047 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A1B0000D2F839C6F0076A047 /* Build configuration list for PBXNativeTarget "BossTimerWidgets" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1B0000B2F839C6F0076A047 /* Debug */,
-				A1B0000C2F839C6F0076A047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
