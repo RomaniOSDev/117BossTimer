@@ -35,6 +35,13 @@ struct KillLogCard: View {
                         .font(.caption2)
                         .foregroundColor(.gray)
                 }
+
+                if let notes = log.notes, !notes.isEmpty {
+                    Text(notes)
+                        .font(.caption)
+                        .foregroundColor(.raidWaiting)
+                        .padding(.top, 2)
+                }
             }
 
             Spacer()

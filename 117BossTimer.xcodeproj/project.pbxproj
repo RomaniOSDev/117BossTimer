@@ -7,92 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		746A27EA2F8788500076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A27E12F8788500076A047 /* Assets.xcassets */; };
-		746A27EC2F8788500076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A27E42F8788500076A047 /* LaunchScreen.storyboard */; };
-		746A27ED2F8788500076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A27E62F8788500076A047 /* Main.storyboard */; };
-		746A27EE2F8788500076A047 /* Color+Raid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27B62F8788500076A047 /* Color+Raid.swift */; };
-		746A27EF2F8788500076A047 /* RaidVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27B72F8788500076A047 /* RaidVisualStyle.swift */; };
-		746A27F02F8788500076A047 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27B92F8788500076A047 /* ActivityView.swift */; };
-		746A27F12F8788500076A047 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27BA2F8788500076A047 /* AppExternalLink.swift */; };
-		746A27F22F8788500076A047 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27BB2F8788500076A047 /* DateFormatting.swift */; };
-		746A27F32F8788500076A047 /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27BE2F8788500076A047 /* Boss.swift */; };
-		746A27F42F8788500076A047 /* BossDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27BF2F8788500076A047 /* BossDifficulty.swift */; };
-		746A27F52F8788500076A047 /* BossStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C02F8788500076A047 /* BossStatus.swift */; };
-		746A27F62F8788500076A047 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C12F8788500076A047 /* Game.swift */; };
-		746A27F72F8788500076A047 /* KillLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C22F8788500076A047 /* KillLog.swift */; };
-		746A27F82F8788500076A047 /* NotificationSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C32F8788500076A047 /* NotificationSetting.swift */; };
-		746A27F92F8788500076A047 /* RaidGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C42F8788500076A047 /* RaidGroup.swift */; };
-		746A27FA2F8788500076A047 /* BossCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C72F8788500076A047 /* BossCard.swift */; };
-		746A27FB2F8788500076A047 /* GameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C82F8788500076A047 /* GameCard.swift */; };
-		746A27FC2F8788500076A047 /* GroupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27C92F8788500076A047 /* GroupCard.swift */; };
-		746A27FD2F8788500076A047 /* HomeCompactBossRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CA2F8788500076A047 /* HomeCompactBossRow.swift */; };
-		746A27FE2F8788500076A047 /* HomeQuickActionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CB2F8788500076A047 /* HomeQuickActionTile.swift */; };
-		746A27FF2F8788500076A047 /* KillLogCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CC2F8788500076A047 /* KillLogCard.swift */; };
-		746A28002F8788500076A047 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CD2F8788500076A047 /* StatCard.swift */; };
-		746A28012F8788500076A047 /* RaidWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27CF2F8788500076A047 /* RaidWatchViewModel.swift */; };
-		746A28022F8788500076A047 /* AddBossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D12F8788500076A047 /* AddBossView.swift */; };
-		746A28032F8788500076A047 /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D22F8788500076A047 /* AddGameView.swift */; };
-		746A28042F8788500076A047 /* AddGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D32F8788500076A047 /* AddGroupView.swift */; };
-		746A28052F8788500076A047 /* BossListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D42F8788500076A047 /* BossListView.swift */; };
-		746A28062F8788500076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D52F8788500076A047 /* ContentView.swift */; };
-		746A28072F8788500076A047 /* GameBossesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D62F8788500076A047 /* GameBossesView.swift */; };
-		746A28082F8788500076A047 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D72F8788500076A047 /* GamesView.swift */; };
-		746A28092F8788500076A047 /* GroupBossesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D82F8788500076A047 /* GroupBossesView.swift */; };
-		746A280A2F8788500076A047 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27D92F8788500076A047 /* HomeView.swift */; };
-		746A280B2F8788500076A047 /* KillLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27DA2F8788500076A047 /* KillLogView.swift */; };
-		746A280C2F8788500076A047 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27DB2F8788500076A047 /* OnboardingFlowView.swift */; };
-		746A280D2F8788500076A047 /* RaidGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27DC2F8788500076A047 /* RaidGroupsView.swift */; };
-		746A280E2F8788500076A047 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27DD2F8788500076A047 /* SettingsView.swift */; };
-		746A280F2F8788500076A047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27E02F8788500076A047 /* AppDelegate.swift */; };
-		746A28102F8788500076A047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27E72F8788500076A047 /* SceneDelegate.swift */; };
-		746A28112F8788500076A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A27E82F8788500076A047 /* ViewController.swift */; };
+		307E58CA2F8E9FA20096FDB9 /* LiveActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58882F8E9FA20096FDB9 /* LiveActivityController.swift */; };
+		307E58CB2F8E9FA20096FDB9 /* RespawnActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58892F8E9FA20096FDB9 /* RespawnActivityAttributes.swift */; };
+		307E58CC2F8E9FA20096FDB9 /* Color+Raid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588B2F8E9FA20096FDB9 /* Color+Raid.swift */; };
+		307E58CD2F8E9FA20096FDB9 /* RaidVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588C2F8E9FA20096FDB9 /* RaidVisualStyle.swift */; };
+		307E58CE2F8E9FA20096FDB9 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588E2F8E9FA20096FDB9 /* ActivityView.swift */; };
+		307E58CF2F8E9FA20096FDB9 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588F2F8E9FA20096FDB9 /* AppExternalLink.swift */; };
+		307E58D02F8E9FA20096FDB9 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58902F8E9FA20096FDB9 /* DateFormatting.swift */; };
+		307E58D12F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58922F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift */; };
+		307E58D22F8E9FA20096FDB9 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58942F8E9FA20096FDB9 /* AppConfiguration.swift */; };
+		307E58D32F8E9FA20096FDB9 /* BossTemplateCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58962F8E9FA20096FDB9 /* BossTemplateCatalog.swift */; };
+		307E58D42F8E9FA20096FDB9 /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58982F8E9FA20096FDB9 /* Boss.swift */; };
+		307E58D52F8E9FA20096FDB9 /* BossDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58992F8E9FA20096FDB9 /* BossDifficulty.swift */; };
+		307E58D62F8E9FA20096FDB9 /* BossStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E589A2F8E9FA20096FDB9 /* BossStatus.swift */; };
+		307E58D72F8E9FA20096FDB9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E589B2F8E9FA20096FDB9 /* Game.swift */; };
+		307E58D82F8E9FA20096FDB9 /* KillLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E589C2F8E9FA20096FDB9 /* KillLog.swift */; };
+		307E58D92F8E9FA20096FDB9 /* NotificationSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E589D2F8E9FA20096FDB9 /* NotificationSetting.swift */; };
+		307E58DA2F8E9FA20096FDB9 /* RaidGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E589E2F8E9FA20096FDB9 /* RaidGroup.swift */; };
+		307E58DB2F8E9FA20096FDB9 /* RaidNightSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E589F2F8E9FA20096FDB9 /* RaidNightSchedule.swift */; };
+		307E58DC2F8E9FA20096FDB9 /* BossCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58A22F8E9FA20096FDB9 /* BossCard.swift */; };
+		307E58DD2F8E9FA20096FDB9 /* GameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58A32F8E9FA20096FDB9 /* GameCard.swift */; };
+		307E58DE2F8E9FA20096FDB9 /* GroupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58A42F8E9FA20096FDB9 /* GroupCard.swift */; };
+		307E58DF2F8E9FA20096FDB9 /* HomeCompactBossRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58A52F8E9FA20096FDB9 /* HomeCompactBossRow.swift */; };
+		307E58E02F8E9FA20096FDB9 /* HomeQuickActionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58A62F8E9FA20096FDB9 /* HomeQuickActionTile.swift */; };
+		307E58E12F8E9FA20096FDB9 /* KillLogCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58A72F8E9FA20096FDB9 /* KillLogCard.swift */; };
+		307E58E22F8E9FA20096FDB9 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58A82F8E9FA20096FDB9 /* StatCard.swift */; };
+		307E58E32F8E9FA20096FDB9 /* RaidWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58AA2F8E9FA20096FDB9 /* RaidWatchViewModel.swift */; };
+		307E58E42F8E9FA20096FDB9 /* AddBossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58AC2F8E9FA20096FDB9 /* AddBossView.swift */; };
+		307E58E52F8E9FA20096FDB9 /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58AD2F8E9FA20096FDB9 /* AddGameView.swift */; };
+		307E58E62F8E9FA20096FDB9 /* AddGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58AE2F8E9FA20096FDB9 /* AddGroupView.swift */; };
+		307E58E72F8E9FA20096FDB9 /* BossListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58AF2F8E9FA20096FDB9 /* BossListView.swift */; };
+		307E58E82F8E9FA20096FDB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B02F8E9FA20096FDB9 /* ContentView.swift */; };
+		307E58E92F8E9FA20096FDB9 /* GameBossesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B12F8E9FA20096FDB9 /* GameBossesView.swift */; };
+		307E58EA2F8E9FA20096FDB9 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B22F8E9FA20096FDB9 /* GamesView.swift */; };
+		307E58EB2F8E9FA20096FDB9 /* GroupBossesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B32F8E9FA20096FDB9 /* GroupBossesView.swift */; };
+		307E58EC2F8E9FA20096FDB9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B42F8E9FA20096FDB9 /* HomeView.swift */; };
+		307E58ED2F8E9FA20096FDB9 /* KillLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B52F8E9FA20096FDB9 /* KillLogView.swift */; };
+		307E58EE2F8E9FA20096FDB9 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B62F8E9FA20096FDB9 /* OnboardingFlowView.swift */; };
+		307E58EF2F8E9FA20096FDB9 /* PlanHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B72F8E9FA20096FDB9 /* PlanHubView.swift */; };
+		307E58F02F8E9FA20096FDB9 /* RaidGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B82F8E9FA20096FDB9 /* RaidGroupsView.swift */; };
+		307E58F12F8E9FA20096FDB9 /* RaidNightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58B92F8E9FA20096FDB9 /* RaidNightView.swift */; };
+		307E58F22F8E9FA20096FDB9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58BA2F8E9FA20096FDB9 /* SettingsView.swift */; };
+		307E58F32F8E9FA20096FDB9 /* StatisticsDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58BB2F8E9FA20096FDB9 /* StatisticsDashboardView.swift */; };
+		307E58F42F8E9FA20096FDB9 /* TemplateLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58BC2F8E9FA20096FDB9 /* TemplateLibraryView.swift */; };
+		307E58F52F8E9FA20096FDB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58C02F8E9FA20096FDB9 /* AppDelegate.swift */; };
+		307E58F62F8E9FA20096FDB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58C72F8E9FA20096FDB9 /* SceneDelegate.swift */; };
+		307E58F72F8E9FA20096FDB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58C82F8E9FA20096FDB9 /* ViewController.swift */; };
+		307E58F82F8E9FA20096FDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307E58C12F8E9FA20096FDB9 /* Assets.xcassets */; };
+		307E58FA2F8E9FA20096FDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E58C42F8E9FA20096FDB9 /* LaunchScreen.storyboard */; };
+		307E58FB2F8E9FA20096FDB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307E58C62F8E9FA20096FDB9 /* Main.storyboard */; };
+		307E59072F8E9FA90096FDB9 /* BossTimerWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58FD2F8E9FA90096FDB9 /* BossTimerWidgets.swift */; };
+		307E59082F8E9FA90096FDB9 /* FavoritesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E58FE2F8E9FA90096FDB9 /* FavoritesWidget.swift */; };
+		307E59092F8E9FA90096FDB9 /* InWindowWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59002F8E9FA90096FDB9 /* InWindowWidget.swift */; };
+		307E590A2F8E9FA90096FDB9 /* NextRespawnsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59012F8E9FA90096FDB9 /* NextRespawnsWidget.swift */; };
+		307E590B2F8E9FA90096FDB9 /* RespawnActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59022F8E9FA90096FDB9 /* RespawnActivityAttributes.swift */; };
+		307E590C2F8E9FA90096FDB9 /* RespawnLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59032F8E9FA90096FDB9 /* RespawnLiveActivity.swift */; };
+		307E590D2F8E9FA90096FDB9 /* SharedSnapshotModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59042F8E9FA90096FDB9 /* SharedSnapshotModels.swift */; };
+		307E590E2F8E9FA90096FDB9 /* WidgetAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E59052F8E9FA90096FDB9 /* WidgetAppearance.swift */; };
+		A1B000082F839C6F0076A047 /* BossTimerWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A1B000032F839C6F0076A047 /* BossTimerWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A1B000092F839C6F0076A047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746A1A902F839C6F0076A047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B000012F839C6F0076A047;
+			remoteInfo = BossTimerWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1B000072F839C6F0076A047 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1B000082F839C6F0076A047 /* BossTimerWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		307E58882F8E9FA20096FDB9 /* LiveActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityController.swift; sourceTree = "<group>"; };
+		307E58892F8E9FA20096FDB9 /* RespawnActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespawnActivityAttributes.swift; sourceTree = "<group>"; };
+		307E588B2F8E9FA20096FDB9 /* Color+Raid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Raid.swift"; sourceTree = "<group>"; };
+		307E588C2F8E9FA20096FDB9 /* RaidVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidVisualStyle.swift; sourceTree = "<group>"; };
+		307E588E2F8E9FA20096FDB9 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		307E588F2F8E9FA20096FDB9 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		307E58902F8E9FA20096FDB9 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		307E58922F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotWriter.swift; sourceTree = "<group>"; };
+		307E58942F8E9FA20096FDB9 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		307E58962F8E9FA20096FDB9 /* BossTemplateCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossTemplateCatalog.swift; sourceTree = "<group>"; };
+		307E58982F8E9FA20096FDB9 /* Boss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
+		307E58992F8E9FA20096FDB9 /* BossDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossDifficulty.swift; sourceTree = "<group>"; };
+		307E589A2F8E9FA20096FDB9 /* BossStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossStatus.swift; sourceTree = "<group>"; };
+		307E589B2F8E9FA20096FDB9 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		307E589C2F8E9FA20096FDB9 /* KillLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillLog.swift; sourceTree = "<group>"; };
+		307E589D2F8E9FA20096FDB9 /* NotificationSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSetting.swift; sourceTree = "<group>"; };
+		307E589E2F8E9FA20096FDB9 /* RaidGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidGroup.swift; sourceTree = "<group>"; };
+		307E589F2F8E9FA20096FDB9 /* RaidNightSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidNightSchedule.swift; sourceTree = "<group>"; };
+		307E58A22F8E9FA20096FDB9 /* BossCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossCard.swift; sourceTree = "<group>"; };
+		307E58A32F8E9FA20096FDB9 /* GameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCard.swift; sourceTree = "<group>"; };
+		307E58A42F8E9FA20096FDB9 /* GroupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCard.swift; sourceTree = "<group>"; };
+		307E58A52F8E9FA20096FDB9 /* HomeCompactBossRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCompactBossRow.swift; sourceTree = "<group>"; };
+		307E58A62F8E9FA20096FDB9 /* HomeQuickActionTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeQuickActionTile.swift; sourceTree = "<group>"; };
+		307E58A72F8E9FA20096FDB9 /* KillLogCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillLogCard.swift; sourceTree = "<group>"; };
+		307E58A82F8E9FA20096FDB9 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		307E58AA2F8E9FA20096FDB9 /* RaidWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidWatchViewModel.swift; sourceTree = "<group>"; };
+		307E58AC2F8E9FA20096FDB9 /* AddBossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBossView.swift; sourceTree = "<group>"; };
+		307E58AD2F8E9FA20096FDB9 /* AddGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
+		307E58AE2F8E9FA20096FDB9 /* AddGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupView.swift; sourceTree = "<group>"; };
+		307E58AF2F8E9FA20096FDB9 /* BossListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossListView.swift; sourceTree = "<group>"; };
+		307E58B02F8E9FA20096FDB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		307E58B12F8E9FA20096FDB9 /* GameBossesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBossesView.swift; sourceTree = "<group>"; };
+		307E58B22F8E9FA20096FDB9 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		307E58B32F8E9FA20096FDB9 /* GroupBossesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBossesView.swift; sourceTree = "<group>"; };
+		307E58B42F8E9FA20096FDB9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		307E58B52F8E9FA20096FDB9 /* KillLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillLogView.swift; sourceTree = "<group>"; };
+		307E58B62F8E9FA20096FDB9 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		307E58B72F8E9FA20096FDB9 /* PlanHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanHubView.swift; sourceTree = "<group>"; };
+		307E58B82F8E9FA20096FDB9 /* RaidGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidGroupsView.swift; sourceTree = "<group>"; };
+		307E58B92F8E9FA20096FDB9 /* RaidNightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidNightView.swift; sourceTree = "<group>"; };
+		307E58BA2F8E9FA20096FDB9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		307E58BB2F8E9FA20096FDB9 /* StatisticsDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsDashboardView.swift; sourceTree = "<group>"; };
+		307E58BC2F8E9FA20096FDB9 /* TemplateLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateLibraryView.swift; sourceTree = "<group>"; };
+		307E58BF2F8E9FA20096FDB9 /* 117BossTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 117BossTimer.entitlements; sourceTree = "<group>"; };
+		307E58C02F8E9FA20096FDB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		307E58C12F8E9FA20096FDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		307E58C22F8E9FA20096FDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307E58C32F8E9FA20096FDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		307E58C52F8E9FA20096FDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		307E58C72F8E9FA20096FDB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		307E58C82F8E9FA20096FDB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		307E58FC2F8E9FA90096FDB9 /* BossTimerWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BossTimerWidgets.entitlements; sourceTree = "<group>"; };
+		307E58FD2F8E9FA90096FDB9 /* BossTimerWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossTimerWidgets.swift; sourceTree = "<group>"; };
+		307E58FE2F8E9FA90096FDB9 /* FavoritesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesWidget.swift; sourceTree = "<group>"; };
+		307E58FF2F8E9FA90096FDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307E59002F8E9FA90096FDB9 /* InWindowWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InWindowWidget.swift; sourceTree = "<group>"; };
+		307E59012F8E9FA90096FDB9 /* NextRespawnsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRespawnsWidget.swift; sourceTree = "<group>"; };
+		307E59022F8E9FA90096FDB9 /* RespawnActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespawnActivityAttributes.swift; sourceTree = "<group>"; };
+		307E59032F8E9FA90096FDB9 /* RespawnLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespawnLiveActivity.swift; sourceTree = "<group>"; };
+		307E59042F8E9FA90096FDB9 /* SharedSnapshotModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedSnapshotModels.swift; sourceTree = "<group>"; };
+		307E59052F8E9FA90096FDB9 /* WidgetAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetAppearance.swift; sourceTree = "<group>"; };
 		5403CDCECCD8FC59E9959FED /* Pods-117BossTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-117BossTimer.debug.xcconfig"; path = "Target Support Files/Pods-117BossTimer/Pods-117BossTimer.debug.xcconfig"; sourceTree = "<group>"; };
 		5BD4A8B8C93935650B16C117 /* Pods-117BossTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-117BossTimer.release.xcconfig"; path = "Target Support Files/Pods-117BossTimer/Pods-117BossTimer.release.xcconfig"; sourceTree = "<group>"; };
 		695609EBEB8309B0BAAF44F7 /* Pods_117BossTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_117BossTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		746A1A982F839C6F0076A047 /* 117BossTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 117BossTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		746A27B62F8788500076A047 /* Color+Raid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Raid.swift"; sourceTree = "<group>"; };
-		746A27B72F8788500076A047 /* RaidVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidVisualStyle.swift; sourceTree = "<group>"; };
-		746A27B92F8788500076A047 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
-		746A27BA2F8788500076A047 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
-		746A27BB2F8788500076A047 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
-		746A27BE2F8788500076A047 /* Boss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
-		746A27BF2F8788500076A047 /* BossDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossDifficulty.swift; sourceTree = "<group>"; };
-		746A27C02F8788500076A047 /* BossStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossStatus.swift; sourceTree = "<group>"; };
-		746A27C12F8788500076A047 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		746A27C22F8788500076A047 /* KillLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillLog.swift; sourceTree = "<group>"; };
-		746A27C32F8788500076A047 /* NotificationSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSetting.swift; sourceTree = "<group>"; };
-		746A27C42F8788500076A047 /* RaidGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidGroup.swift; sourceTree = "<group>"; };
-		746A27C72F8788500076A047 /* BossCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossCard.swift; sourceTree = "<group>"; };
-		746A27C82F8788500076A047 /* GameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCard.swift; sourceTree = "<group>"; };
-		746A27C92F8788500076A047 /* GroupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCard.swift; sourceTree = "<group>"; };
-		746A27CA2F8788500076A047 /* HomeCompactBossRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCompactBossRow.swift; sourceTree = "<group>"; };
-		746A27CB2F8788500076A047 /* HomeQuickActionTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeQuickActionTile.swift; sourceTree = "<group>"; };
-		746A27CC2F8788500076A047 /* KillLogCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillLogCard.swift; sourceTree = "<group>"; };
-		746A27CD2F8788500076A047 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
-		746A27CF2F8788500076A047 /* RaidWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidWatchViewModel.swift; sourceTree = "<group>"; };
-		746A27D12F8788500076A047 /* AddBossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBossView.swift; sourceTree = "<group>"; };
-		746A27D22F8788500076A047 /* AddGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
-		746A27D32F8788500076A047 /* AddGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupView.swift; sourceTree = "<group>"; };
-		746A27D42F8788500076A047 /* BossListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossListView.swift; sourceTree = "<group>"; };
-		746A27D52F8788500076A047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		746A27D62F8788500076A047 /* GameBossesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBossesView.swift; sourceTree = "<group>"; };
-		746A27D72F8788500076A047 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
-		746A27D82F8788500076A047 /* GroupBossesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBossesView.swift; sourceTree = "<group>"; };
-		746A27D92F8788500076A047 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		746A27DA2F8788500076A047 /* KillLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillLogView.swift; sourceTree = "<group>"; };
-		746A27DB2F8788500076A047 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
-		746A27DC2F8788500076A047 /* RaidGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidGroupsView.swift; sourceTree = "<group>"; };
-		746A27DD2F8788500076A047 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		746A27E02F8788500076A047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		746A27E12F8788500076A047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		746A27E22F8788500076A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		746A27E32F8788500076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		746A27E52F8788500076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		746A27E72F8788500076A047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		746A27E82F8788500076A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1B000032F839C6F0076A047 /* BossTimerWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BossTimerWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +168,187 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1B000052F839C6F0076A047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		307E588A2F8E9FA20096FDB9 /* LiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				307E58882F8E9FA20096FDB9 /* LiveActivityController.swift */,
+				307E58892F8E9FA20096FDB9 /* RespawnActivityAttributes.swift */,
+			);
+			path = LiveActivity;
+			sourceTree = "<group>";
+		};
+		307E588D2F8E9FA20096FDB9 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				307E588B2F8E9FA20096FDB9 /* Color+Raid.swift */,
+				307E588C2F8E9FA20096FDB9 /* RaidVisualStyle.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		307E58912F8E9FA20096FDB9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				307E588E2F8E9FA20096FDB9 /* ActivityView.swift */,
+				307E588F2F8E9FA20096FDB9 /* AppExternalLink.swift */,
+				307E58902F8E9FA20096FDB9 /* DateFormatting.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		307E58932F8E9FA20096FDB9 /* WidgetSupport */ = {
+			isa = PBXGroup;
+			children = (
+				307E58922F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift */,
+			);
+			path = WidgetSupport;
+			sourceTree = "<group>";
+		};
+		307E58952F8E9FA20096FDB9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				307E588A2F8E9FA20096FDB9 /* LiveActivity */,
+				307E588D2F8E9FA20096FDB9 /* Theme */,
+				307E58912F8E9FA20096FDB9 /* Utilities */,
+				307E58932F8E9FA20096FDB9 /* WidgetSupport */,
+				307E58942F8E9FA20096FDB9 /* AppConfiguration.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		307E58972F8E9FA20096FDB9 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				307E58962F8E9FA20096FDB9 /* BossTemplateCatalog.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		307E58A02F8E9FA20096FDB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				307E58982F8E9FA20096FDB9 /* Boss.swift */,
+				307E58992F8E9FA20096FDB9 /* BossDifficulty.swift */,
+				307E589A2F8E9FA20096FDB9 /* BossStatus.swift */,
+				307E589B2F8E9FA20096FDB9 /* Game.swift */,
+				307E589C2F8E9FA20096FDB9 /* KillLog.swift */,
+				307E589D2F8E9FA20096FDB9 /* NotificationSetting.swift */,
+				307E589E2F8E9FA20096FDB9 /* RaidGroup.swift */,
+				307E589F2F8E9FA20096FDB9 /* RaidNightSchedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		307E58A12F8E9FA20096FDB9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				307E58972F8E9FA20096FDB9 /* Catalog */,
+				307E58A02F8E9FA20096FDB9 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		307E58A92F8E9FA20096FDB9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				307E58A22F8E9FA20096FDB9 /* BossCard.swift */,
+				307E58A32F8E9FA20096FDB9 /* GameCard.swift */,
+				307E58A42F8E9FA20096FDB9 /* GroupCard.swift */,
+				307E58A52F8E9FA20096FDB9 /* HomeCompactBossRow.swift */,
+				307E58A62F8E9FA20096FDB9 /* HomeQuickActionTile.swift */,
+				307E58A72F8E9FA20096FDB9 /* KillLogCard.swift */,
+				307E58A82F8E9FA20096FDB9 /* StatCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		307E58AB2F8E9FA20096FDB9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				307E58AA2F8E9FA20096FDB9 /* RaidWatchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		307E58BD2F8E9FA20096FDB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				307E58AC2F8E9FA20096FDB9 /* AddBossView.swift */,
+				307E58AD2F8E9FA20096FDB9 /* AddGameView.swift */,
+				307E58AE2F8E9FA20096FDB9 /* AddGroupView.swift */,
+				307E58AF2F8E9FA20096FDB9 /* BossListView.swift */,
+				307E58B02F8E9FA20096FDB9 /* ContentView.swift */,
+				307E58B12F8E9FA20096FDB9 /* GameBossesView.swift */,
+				307E58B22F8E9FA20096FDB9 /* GamesView.swift */,
+				307E58B32F8E9FA20096FDB9 /* GroupBossesView.swift */,
+				307E58B42F8E9FA20096FDB9 /* HomeView.swift */,
+				307E58B52F8E9FA20096FDB9 /* KillLogView.swift */,
+				307E58B62F8E9FA20096FDB9 /* OnboardingFlowView.swift */,
+				307E58B72F8E9FA20096FDB9 /* PlanHubView.swift */,
+				307E58B82F8E9FA20096FDB9 /* RaidGroupsView.swift */,
+				307E58B92F8E9FA20096FDB9 /* RaidNightView.swift */,
+				307E58BA2F8E9FA20096FDB9 /* SettingsView.swift */,
+				307E58BB2F8E9FA20096FDB9 /* StatisticsDashboardView.swift */,
+				307E58BC2F8E9FA20096FDB9 /* TemplateLibraryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		307E58BE2F8E9FA20096FDB9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				307E58A92F8E9FA20096FDB9 /* Components */,
+				307E58AB2F8E9FA20096FDB9 /* ViewModels */,
+				307E58BD2F8E9FA20096FDB9 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		307E58C92F8E9FA20096FDB9 /* 117BossTimer */ = {
+			isa = PBXGroup;
+			children = (
+				307E58952F8E9FA20096FDB9 /* Core */,
+				307E58A12F8E9FA20096FDB9 /* Domain */,
+				307E58BE2F8E9FA20096FDB9 /* Presentation */,
+				307E58BF2F8E9FA20096FDB9 /* 117BossTimer.entitlements */,
+				307E58C02F8E9FA20096FDB9 /* AppDelegate.swift */,
+				307E58C12F8E9FA20096FDB9 /* Assets.xcassets */,
+				307E58C22F8E9FA20096FDB9 /* Info.plist */,
+				307E58C42F8E9FA20096FDB9 /* LaunchScreen.storyboard */,
+				307E58C62F8E9FA20096FDB9 /* Main.storyboard */,
+				307E58C72F8E9FA20096FDB9 /* SceneDelegate.swift */,
+				307E58C82F8E9FA20096FDB9 /* ViewController.swift */,
+			);
+			path = 117BossTimer;
+			sourceTree = "<group>";
+		};
+		307E59062F8E9FA90096FDB9 /* BossTimerWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				307E58FC2F8E9FA90096FDB9 /* BossTimerWidgets.entitlements */,
+				307E58FD2F8E9FA90096FDB9 /* BossTimerWidgets.swift */,
+				307E58FE2F8E9FA90096FDB9 /* FavoritesWidget.swift */,
+				307E58FF2F8E9FA90096FDB9 /* Info.plist */,
+				307E59002F8E9FA90096FDB9 /* InWindowWidget.swift */,
+				307E59012F8E9FA90096FDB9 /* NextRespawnsWidget.swift */,
+				307E59022F8E9FA90096FDB9 /* RespawnActivityAttributes.swift */,
+				307E59032F8E9FA90096FDB9 /* RespawnLiveActivity.swift */,
+				307E59042F8E9FA90096FDB9 /* SharedSnapshotModels.swift */,
+				307E59052F8E9FA90096FDB9 /* WidgetAppearance.swift */,
+			);
+			path = BossTimerWidgets;
+			sourceTree = "<group>";
+		};
 		5F76AFE06D8E652BA99206CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +361,8 @@
 		746A1A8F2F839C6F0076A047 = {
 			isa = PBXGroup;
 			children = (
-				746A27E92F8788500076A047 /* 117BossTimer */,
+				307E58C92F8E9FA20096FDB9 /* 117BossTimer */,
+				307E59062F8E9FA90096FDB9 /* BossTimerWidgets */,
 				746A1A992F839C6F0076A047 /* Products */,
 				5F76AFE06D8E652BA99206CA /* Pods */,
 				DB66F060E34806746AC6E03F /* Frameworks */,
@@ -129,127 +373,9 @@
 			isa = PBXGroup;
 			children = (
 				746A1A982F839C6F0076A047 /* 117BossTimer.app */,
+				A1B000032F839C6F0076A047 /* BossTimerWidgets.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		746A27B82F8788500076A047 /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				746A27B62F8788500076A047 /* Color+Raid.swift */,
-				746A27B72F8788500076A047 /* RaidVisualStyle.swift */,
-			);
-			path = Theme;
-			sourceTree = "<group>";
-		};
-		746A27BC2F8788500076A047 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				746A27B92F8788500076A047 /* ActivityView.swift */,
-				746A27BA2F8788500076A047 /* AppExternalLink.swift */,
-				746A27BB2F8788500076A047 /* DateFormatting.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		746A27BD2F8788500076A047 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				746A27B82F8788500076A047 /* Theme */,
-				746A27BC2F8788500076A047 /* Utilities */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		746A27C52F8788500076A047 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				746A27BE2F8788500076A047 /* Boss.swift */,
-				746A27BF2F8788500076A047 /* BossDifficulty.swift */,
-				746A27C02F8788500076A047 /* BossStatus.swift */,
-				746A27C12F8788500076A047 /* Game.swift */,
-				746A27C22F8788500076A047 /* KillLog.swift */,
-				746A27C32F8788500076A047 /* NotificationSetting.swift */,
-				746A27C42F8788500076A047 /* RaidGroup.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		746A27C62F8788500076A047 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				746A27C52F8788500076A047 /* Models */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		746A27CE2F8788500076A047 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				746A27C72F8788500076A047 /* BossCard.swift */,
-				746A27C82F8788500076A047 /* GameCard.swift */,
-				746A27C92F8788500076A047 /* GroupCard.swift */,
-				746A27CA2F8788500076A047 /* HomeCompactBossRow.swift */,
-				746A27CB2F8788500076A047 /* HomeQuickActionTile.swift */,
-				746A27CC2F8788500076A047 /* KillLogCard.swift */,
-				746A27CD2F8788500076A047 /* StatCard.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		746A27D02F8788500076A047 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				746A27CF2F8788500076A047 /* RaidWatchViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		746A27DE2F8788500076A047 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				746A27D12F8788500076A047 /* AddBossView.swift */,
-				746A27D22F8788500076A047 /* AddGameView.swift */,
-				746A27D32F8788500076A047 /* AddGroupView.swift */,
-				746A27D42F8788500076A047 /* BossListView.swift */,
-				746A27D52F8788500076A047 /* ContentView.swift */,
-				746A27D62F8788500076A047 /* GameBossesView.swift */,
-				746A27D72F8788500076A047 /* GamesView.swift */,
-				746A27D82F8788500076A047 /* GroupBossesView.swift */,
-				746A27D92F8788500076A047 /* HomeView.swift */,
-				746A27DA2F8788500076A047 /* KillLogView.swift */,
-				746A27DB2F8788500076A047 /* OnboardingFlowView.swift */,
-				746A27DC2F8788500076A047 /* RaidGroupsView.swift */,
-				746A27DD2F8788500076A047 /* SettingsView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		746A27DF2F8788500076A047 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				746A27CE2F8788500076A047 /* Components */,
-				746A27D02F8788500076A047 /* ViewModels */,
-				746A27DE2F8788500076A047 /* Views */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		746A27E92F8788500076A047 /* 117BossTimer */ = {
-			isa = PBXGroup;
-			children = (
-				746A27BD2F8788500076A047 /* Core */,
-				746A27C62F8788500076A047 /* Domain */,
-				746A27DF2F8788500076A047 /* Presentation */,
-				746A27E02F8788500076A047 /* AppDelegate.swift */,
-				746A27E12F8788500076A047 /* Assets.xcassets */,
-				746A27E22F8788500076A047 /* Info.plist */,
-				746A27E42F8788500076A047 /* LaunchScreen.storyboard */,
-				746A27E62F8788500076A047 /* Main.storyboard */,
-				746A27E72F8788500076A047 /* SceneDelegate.swift */,
-				746A27E82F8788500076A047 /* ViewController.swift */,
-			);
-			path = 117BossTimer;
 			sourceTree = "<group>";
 		};
 		DB66F060E34806746AC6E03F /* Frameworks */ = {
@@ -271,15 +397,38 @@
 				746A1A942F839C6F0076A047 /* Sources */,
 				746A1A952F839C6F0076A047 /* Frameworks */,
 				746A1A962F839C6F0076A047 /* Resources */,
+				A1B000072F839C6F0076A047 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B0000A2F839C6F0076A047 /* PBXTargetDependency */,
+			);
+			name = 117BossTimer;
+			packageProductDependencies = (
+			);
+			productName = 117BossTimer;
+			productReference = 746A1A982F839C6F0076A047 /* 117BossTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B000012F839C6F0076A047 /* BossTimerWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B0000D2F839C6F0076A047 /* Build configuration list for PBXNativeTarget "BossTimerWidgets" */;
+			buildPhases = (
+				A1B000042F839C6F0076A047 /* Sources */,
+				A1B000052F839C6F0076A047 /* Frameworks */,
+				A1B000062F839C6F0076A047 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 117BossTimer;
-			productName = 117BossTimer;
-			productReference = 746A1A982F839C6F0076A047 /* 117BossTimer.app */;
-			productType = "com.apple.product-type.application";
+			name = BossTimerWidgets;
+			packageProductDependencies = (
+			);
+			productName = BossTimerWidgets;
+			productReference = A1B000032F839C6F0076A047 /* BossTimerWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -292,6 +441,9 @@
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					746A1A972F839C6F0076A047 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					A1B000012F839C6F0076A047 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
@@ -310,6 +462,7 @@
 			projectRoot = "";
 			targets = (
 				746A1A972F839C6F0076A047 /* 117BossTimer */,
+				A1B000012F839C6F0076A047 /* BossTimerWidgets */,
 			);
 		};
 /* End PBXProject section */
@@ -319,9 +472,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746A27EA2F8788500076A047 /* Assets.xcassets in Resources */,
-				746A27EC2F8788500076A047 /* LaunchScreen.storyboard in Resources */,
-				746A27ED2F8788500076A047 /* Main.storyboard in Resources */,
+				307E58F82F8E9FA20096FDB9 /* Assets.xcassets in Resources */,
+				307E58FA2F8E9FA20096FDB9 /* LaunchScreen.storyboard in Resources */,
+				307E58FB2F8E9FA20096FDB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B000062F839C6F0076A047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,60 +517,93 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746A27EE2F8788500076A047 /* Color+Raid.swift in Sources */,
-				746A27EF2F8788500076A047 /* RaidVisualStyle.swift in Sources */,
-				746A27F02F8788500076A047 /* ActivityView.swift in Sources */,
-				746A27F12F8788500076A047 /* AppExternalLink.swift in Sources */,
-				746A27F22F8788500076A047 /* DateFormatting.swift in Sources */,
-				746A27F32F8788500076A047 /* Boss.swift in Sources */,
-				746A27F42F8788500076A047 /* BossDifficulty.swift in Sources */,
-				746A27F52F8788500076A047 /* BossStatus.swift in Sources */,
-				746A27F62F8788500076A047 /* Game.swift in Sources */,
-				746A27F72F8788500076A047 /* KillLog.swift in Sources */,
-				746A27F82F8788500076A047 /* NotificationSetting.swift in Sources */,
-				746A27F92F8788500076A047 /* RaidGroup.swift in Sources */,
-				746A27FA2F8788500076A047 /* BossCard.swift in Sources */,
-				746A27FB2F8788500076A047 /* GameCard.swift in Sources */,
-				746A27FC2F8788500076A047 /* GroupCard.swift in Sources */,
-				746A27FD2F8788500076A047 /* HomeCompactBossRow.swift in Sources */,
-				746A27FE2F8788500076A047 /* HomeQuickActionTile.swift in Sources */,
-				746A27FF2F8788500076A047 /* KillLogCard.swift in Sources */,
-				746A28002F8788500076A047 /* StatCard.swift in Sources */,
-				746A28012F8788500076A047 /* RaidWatchViewModel.swift in Sources */,
-				746A28022F8788500076A047 /* AddBossView.swift in Sources */,
-				746A28032F8788500076A047 /* AddGameView.swift in Sources */,
-				746A28042F8788500076A047 /* AddGroupView.swift in Sources */,
-				746A28052F8788500076A047 /* BossListView.swift in Sources */,
-				746A28062F8788500076A047 /* ContentView.swift in Sources */,
-				746A28072F8788500076A047 /* GameBossesView.swift in Sources */,
-				746A28082F8788500076A047 /* GamesView.swift in Sources */,
-				746A28092F8788500076A047 /* GroupBossesView.swift in Sources */,
-				746A280A2F8788500076A047 /* HomeView.swift in Sources */,
-				746A280B2F8788500076A047 /* KillLogView.swift in Sources */,
-				746A280C2F8788500076A047 /* OnboardingFlowView.swift in Sources */,
-				746A280D2F8788500076A047 /* RaidGroupsView.swift in Sources */,
-				746A280E2F8788500076A047 /* SettingsView.swift in Sources */,
-				746A280F2F8788500076A047 /* AppDelegate.swift in Sources */,
-				746A28102F8788500076A047 /* SceneDelegate.swift in Sources */,
-				746A28112F8788500076A047 /* ViewController.swift in Sources */,
+				307E58CA2F8E9FA20096FDB9 /* LiveActivityController.swift in Sources */,
+				307E58CB2F8E9FA20096FDB9 /* RespawnActivityAttributes.swift in Sources */,
+				307E58CC2F8E9FA20096FDB9 /* Color+Raid.swift in Sources */,
+				307E58CD2F8E9FA20096FDB9 /* RaidVisualStyle.swift in Sources */,
+				307E58CE2F8E9FA20096FDB9 /* ActivityView.swift in Sources */,
+				307E58CF2F8E9FA20096FDB9 /* AppExternalLink.swift in Sources */,
+				307E58D02F8E9FA20096FDB9 /* DateFormatting.swift in Sources */,
+				307E58D12F8E9FA20096FDB9 /* WidgetSnapshotWriter.swift in Sources */,
+				307E58D22F8E9FA20096FDB9 /* AppConfiguration.swift in Sources */,
+				307E58D32F8E9FA20096FDB9 /* BossTemplateCatalog.swift in Sources */,
+				307E58D42F8E9FA20096FDB9 /* Boss.swift in Sources */,
+				307E58D52F8E9FA20096FDB9 /* BossDifficulty.swift in Sources */,
+				307E58D62F8E9FA20096FDB9 /* BossStatus.swift in Sources */,
+				307E58D72F8E9FA20096FDB9 /* Game.swift in Sources */,
+				307E58D82F8E9FA20096FDB9 /* KillLog.swift in Sources */,
+				307E58D92F8E9FA20096FDB9 /* NotificationSetting.swift in Sources */,
+				307E58DA2F8E9FA20096FDB9 /* RaidGroup.swift in Sources */,
+				307E58DB2F8E9FA20096FDB9 /* RaidNightSchedule.swift in Sources */,
+				307E58DC2F8E9FA20096FDB9 /* BossCard.swift in Sources */,
+				307E58DD2F8E9FA20096FDB9 /* GameCard.swift in Sources */,
+				307E58DE2F8E9FA20096FDB9 /* GroupCard.swift in Sources */,
+				307E58DF2F8E9FA20096FDB9 /* HomeCompactBossRow.swift in Sources */,
+				307E58E02F8E9FA20096FDB9 /* HomeQuickActionTile.swift in Sources */,
+				307E58E12F8E9FA20096FDB9 /* KillLogCard.swift in Sources */,
+				307E58E22F8E9FA20096FDB9 /* StatCard.swift in Sources */,
+				307E58E32F8E9FA20096FDB9 /* RaidWatchViewModel.swift in Sources */,
+				307E58E42F8E9FA20096FDB9 /* AddBossView.swift in Sources */,
+				307E58E52F8E9FA20096FDB9 /* AddGameView.swift in Sources */,
+				307E58E62F8E9FA20096FDB9 /* AddGroupView.swift in Sources */,
+				307E58E72F8E9FA20096FDB9 /* BossListView.swift in Sources */,
+				307E58E82F8E9FA20096FDB9 /* ContentView.swift in Sources */,
+				307E58E92F8E9FA20096FDB9 /* GameBossesView.swift in Sources */,
+				307E58EA2F8E9FA20096FDB9 /* GamesView.swift in Sources */,
+				307E58EB2F8E9FA20096FDB9 /* GroupBossesView.swift in Sources */,
+				307E58EC2F8E9FA20096FDB9 /* HomeView.swift in Sources */,
+				307E58ED2F8E9FA20096FDB9 /* KillLogView.swift in Sources */,
+				307E58EE2F8E9FA20096FDB9 /* OnboardingFlowView.swift in Sources */,
+				307E58EF2F8E9FA20096FDB9 /* PlanHubView.swift in Sources */,
+				307E58F02F8E9FA20096FDB9 /* RaidGroupsView.swift in Sources */,
+				307E58F12F8E9FA20096FDB9 /* RaidNightView.swift in Sources */,
+				307E58F22F8E9FA20096FDB9 /* SettingsView.swift in Sources */,
+				307E58F32F8E9FA20096FDB9 /* StatisticsDashboardView.swift in Sources */,
+				307E58F42F8E9FA20096FDB9 /* TemplateLibraryView.swift in Sources */,
+				307E58F52F8E9FA20096FDB9 /* AppDelegate.swift in Sources */,
+				307E58F62F8E9FA20096FDB9 /* SceneDelegate.swift in Sources */,
+				307E58F72F8E9FA20096FDB9 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B000042F839C6F0076A047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307E59072F8E9FA90096FDB9 /* BossTimerWidgets.swift in Sources */,
+				307E59082F8E9FA90096FDB9 /* FavoritesWidget.swift in Sources */,
+				307E59092F8E9FA90096FDB9 /* InWindowWidget.swift in Sources */,
+				307E590A2F8E9FA90096FDB9 /* NextRespawnsWidget.swift in Sources */,
+				307E590B2F8E9FA90096FDB9 /* RespawnActivityAttributes.swift in Sources */,
+				307E590C2F8E9FA90096FDB9 /* RespawnLiveActivity.swift in Sources */,
+				307E590D2F8E9FA90096FDB9 /* SharedSnapshotModels.swift in Sources */,
+				307E590E2F8E9FA90096FDB9 /* WidgetAppearance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A1B0000A2F839C6F0076A047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B000012F839C6F0076A047 /* BossTimerWidgets */;
+			targetProxy = A1B000092F839C6F0076A047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		746A27E42F8788500076A047 /* LaunchScreen.storyboard */ = {
+		307E58C42F8E9FA20096FDB9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				746A27E32F8788500076A047 /* Base */,
+				307E58C32F8E9FA20096FDB9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		746A27E62F8788500076A047 /* Main.storyboard */ = {
+		307E58C62F8E9FA20096FDB9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				746A27E52F8788500076A047 /* Base */,
+				307E58C52F8E9FA20096FDB9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -424,17 +617,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 117BossTimer/117BossTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 117BossTimer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BossTimer - Raids";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,17 +657,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 117BossTimer/117BossTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 117BossTimer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BossTimer - Raids";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -613,6 +810,78 @@
 			};
 			name = Release;
 		};
+		A1B0000B2F839C6F0076A047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = BossTimerWidgets/BossTimerWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BossTimerWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.era.b00sst3m5rr39ds.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1B0000C2F839C6F0076A047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = BossTimerWidgets/BossTimerWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BossTimerWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.era.b00sst3m5rr39ds.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -630,6 +899,15 @@
 			buildConfigurations = (
 				746A1AAC2F839C710076A047 /* Debug */,
 				746A1AAD2F839C710076A047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B0000D2F839C6F0076A047 /* Build configuration list for PBXNativeTarget "BossTimerWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B0000B2F839C6F0076A047 /* Debug */,
+				A1B0000C2F839C6F0076A047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -317,6 +317,9 @@ struct HomeView: View {
                 HomeQuickActionTile(title: "Groups", systemImage: "person.3.fill", accent: .raidWaiting) {
                     selectedTab = 3
                 }
+                HomeQuickActionTile(title: "Plan", systemImage: "calendar.badge.clock", accent: .raidActive) {
+                    selectedTab = 6
+                }
             }
         }
     }

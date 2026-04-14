@@ -19,7 +19,7 @@ struct ContentView: View {
             if onboardingCompleted {
                 mainTabView
             } else {
-                OnboardingFlowView {
+                OnboardingFlowView(viewModel: viewModel) {
                     onboardingCompleted = true
                 }
             }
@@ -33,7 +33,8 @@ struct ContentView: View {
     /// Users who already have saved data should not see onboarding again after an app update.
     private func skipOnboardingIfExistingData() {
         guard !onboardingCompleted else { return }
-        if UserDefaults.standard.object(forKey: "raidwatch_games") != nil {
+        if UserDefaults.standard.data(forKey: "raidwatch_games") != nil
+            || AppConfiguration.sharedDefaults.data(forKey: "raidwatch_games") != nil {
             onboardingCompleted = true
         }
     }
@@ -75,6 +76,12 @@ struct ContentView: View {
                     Label("Settings", systemImage: "gear")
                 }
                 .tag(5)
+
+            PlanHubView(viewModel: viewModel)
+                .tabItem {
+                    Label("Plan", systemImage: "calendar.badge.clock")
+                }
+                .tag(6)
         }
         .tint(.raidActive)
         .onAppear {

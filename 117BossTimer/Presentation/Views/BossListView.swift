@@ -48,6 +48,14 @@ struct BossListView: View {
                                     }
                                     .tint(.raidWaiting)
                                 }
+                                .contextMenu {
+                                    Button {
+                                        Task { await viewModel.startLiveActivity(for: boss) }
+                                    } label: {
+                                        Label("Live countdown", systemImage: "dot.scope.display")
+                                    }
+                                    .disabled(!LiveActivityController.activitiesEnabled)
+                                }
                         }
                     }
                     .scrollContentBackground(.hidden)

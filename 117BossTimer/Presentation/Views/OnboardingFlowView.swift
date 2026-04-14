@@ -6,10 +6,11 @@
 import SwiftUI
 
 struct OnboardingFlowView: View {
+    @ObservedObject var viewModel: RaidWatchViewModel
     var onComplete: () -> Void
 
     @State private var page = 0
-    private let lastPage = 2
+    private let lastPage = 3
 
     var body: some View {
         ZStack {
@@ -51,16 +52,109 @@ struct OnboardingFlowView: View {
                         message: "Group bosses by game, build raid groups for the night, and export or reset your data when you need a fresh start."
                     )
                     .tag(2)
+
+                    scenarioPage
+                        .tag(3)
                 }
                 .tabViewStyle(.page(indexDisplayMode: .never))
 
                 pageDots
 
-                primaryButton
-                    .padding(.horizontal, 24)
-                    .padding(.bottom, 28)
-                    .padding(.top, 8)
+                if page < lastPage {
+                    primaryButton
+                        .padding(.horizontal, 24)
+                        .padding(.bottom, 28)
+                        .padding(.top, 8)
+                } else {
+                    scenarioButtons
+                        .padding(.horizontal, 24)
+                        .padding(.bottom, 28)
+                        .padding(.top, 8)
+                }
             }
+        }
+    }
+
+    private var scenarioPage: some View {
+        VStack(spacing: 28) {
+            Spacer(minLength: 12)
+
+            ZStack {
+                Circle()
+                    .fill(
+                        RadialGradient(
+                            colors: [Color.raidActive.opacity(0.35), Color.clear],
+                            center: .center,
+                            startRadius: 10,
+                            endRadius: 120
+                        )
+                    )
+                    .frame(width: 220, height: 220)
+
+                Image(systemName: "moon.stars.fill")
+                    .font(.system(size: 76, weight: .medium))
+                    .symbolRenderingMode(.hierarchical)
+                    .foregroundStyle(
+                        LinearGradient(
+                            colors: [Color.raidActive, Color.raidWaiting],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    )
+            }
+
+            VStack(alignment: .leading, spacing: 14) {
+                Text("Try a full raid evening")
+                    .font(.title.bold())
+                    .foregroundColor(.white)
+                    .fixedSize(horizontal: false, vertical: true)
+
+                Text("Load five demo bosses, a raid group, raid-night schedule, and sample history for charts — perfect for exploring Plan, widgets, and Live Activities.")
+                    .font(.body)
+                    .foregroundColor(.gray)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(22)
+            .raidElevatedCard(cornerRadius: 22, accent: Color.raidActive)
+            .padding(.horizontal, 20)
+
+            Spacer(minLength: 24)
+        }
+    }
+
+    private var scenarioButtons: some View {
+        VStack(spacing: 12) {
+            Button {
+                viewModel.seedOnboardingEveningScenario()
+                onComplete()
+            } label: {
+                Text("Load sample raid night")
+                    .font(.headline.weight(.bold))
+                    .foregroundColor(Color(red: 0.04, green: 0.06, blue: 0.1))
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 16)
+                    .background(
+                        LinearGradient(
+                            colors: [Color.raidActive, Color.raidActive.opacity(0.82)],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    )
+                    .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            }
+            .buttonStyle(.plain)
+
+            Button {
+                onComplete()
+            } label: {
+                Text("Start with empty slate")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundColor(.raidActive)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 14)
+            }
+            .buttonStyle(.plain)
         }
     }
 
@@ -82,11 +176,9 @@ struct OnboardingFlowView: View {
                 withAnimation(.easeInOut) {
                     page += 1
                 }
-            } else {
-                onComplete()
             }
         } label: {
-            Text(page < lastPage ? "Next" : "Get started")
+            Text("Next")
                 .font(.headline.weight(.bold))
                 .foregroundColor(Color(red: 0.04, green: 0.06, blue: 0.1))
                 .frame(maxWidth: .infinity)
@@ -104,7 +196,6 @@ struct OnboardingFlowView: View {
                         .stroke(Color.white.opacity(0.28), lineWidth: 1)
                 )
                 .shadow(color: Color.raidActive.opacity(0.45), radius: 14, x: 0, y: 6)
-                .shadow(color: Color.black.opacity(0.35), radius: 8, x: 0, y: 4)
         }
         .buttonStyle(.plain)
     }
@@ -171,6 +262,3 @@ private struct OnboardingPageView: View {
     }
 }
 
-#Preview {
-    OnboardingFlowView(onComplete: {})
-}

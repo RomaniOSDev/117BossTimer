@@ -11,5 +11,5 @@ struct KillLog: Identifiable, Codable, Hashable {
     let bossName: String
     let killTime: Date
     let partyMembers: [String]
-    let notes: String?
+    var notes: String?
 }
