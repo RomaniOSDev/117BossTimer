@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30048CA92F98097100B3ED85 /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30048CA72F98097100B3ED85 /* StartMainView.swift */; };
+		30048CAA2F98097100B3ED85 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30048CA32F98097100B3ED85 /* AppRouter.swift */; };
+		30048CAB2F98097100B3ED85 /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30048CA52F98097100B3ED85 /* PrivacyWebView.swift */; };
+		30048CAC2F98097100B3ED85 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30048CA62F98097100B3ED85 /* SaveService.swift */; };
+		30048CAD2F98097100B3ED85 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30048CA42F98097100B3ED85 /* PersistenceManager.swift */; };
 		307E58CC2F8E9FA20096FDB9 /* Color+Raid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588B2F8E9FA20096FDB9 /* Color+Raid.swift */; };
 		307E58CD2F8E9FA20096FDB9 /* RaidVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588C2F8E9FA20096FDB9 /* RaidVisualStyle.swift */; };
 		307E58CE2F8E9FA20096FDB9 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E588E2F8E9FA20096FDB9 /* ActivityView.swift */; };
@@ -55,6 +60,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30048CA32F98097100B3ED85 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		30048CA42F98097100B3ED85 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		30048CA52F98097100B3ED85 /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		30048CA62F98097100B3ED85 /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		30048CA72F98097100B3ED85 /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		307E588B2F8E9FA20096FDB9 /* Color+Raid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Raid.swift"; sourceTree = "<group>"; };
 		307E588C2F8E9FA20096FDB9 /* RaidVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidVisualStyle.swift; sourceTree = "<group>"; };
 		307E588E2F8E9FA20096FDB9 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
@@ -118,6 +128,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30048CA82F98097100B3ED85 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				30048CA32F98097100B3ED85 /* AppRouter.swift */,
+				30048CA42F98097100B3ED85 /* PersistenceManager.swift */,
+				30048CA52F98097100B3ED85 /* PrivacyWebView.swift */,
+				30048CA62F98097100B3ED85 /* SaveService.swift */,
+				30048CA72F98097100B3ED85 /* StartMainView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		307E588D2F8E9FA20096FDB9 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +269,7 @@
 				307E58C62F8E9FA20096FDB9 /* Main.storyboard */,
 				307E58C72F8E9FA20096FDB9 /* SceneDelegate.swift */,
 				307E58C82F8E9FA20096FDB9 /* ViewController.swift */,
+				30048CA82F98097100B3ED85 /* Router */,
 			);
 			path = 117BossTimer;
 			sourceTree = "<group>";
@@ -385,6 +408,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30048CA92F98097100B3ED85 /* StartMainView.swift in Sources */,
+				30048CAA2F98097100B3ED85 /* AppRouter.swift in Sources */,
+				30048CAB2F98097100B3ED85 /* PrivacyWebView.swift in Sources */,
+				30048CAC2F98097100B3ED85 /* SaveService.swift in Sources */,
+				30048CAD2F98097100B3ED85 /* PersistenceManager.swift in Sources */,
 				307E58CC2F8E9FA20096FDB9 /* Color+Raid.swift in Sources */,
 				307E58CD2F8E9FA20096FDB9 /* RaidVisualStyle.swift in Sources */,
 				307E58CE2F8E9FA20096FDB9 /* ActivityView.swift in Sources */,
@@ -459,7 +487,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 117BossTimer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BossTimer - Raids";
@@ -472,7 +500,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.era.b00sst3m5rr39ds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -496,7 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 117BossTimer/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BossTimer - Raids";
@@ -509,7 +537,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.era.b00sst3m5rr39ds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

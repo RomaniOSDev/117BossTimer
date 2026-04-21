@@ -5,18 +5,19 @@
 //  Created by Роман Главацкий on 06.04.2026.
 //
 
-import UIKit
 import SwiftUI
+import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    private var launchFlowSurface: FlowLaunchSurfaceCoordinator?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else {return}
+        guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = UIHostingController(rootView: ContentView())
+        launchFlowSurface = FlowLaunchSurfaceCoordinator()
+        window?.rootViewController = launchFlowSurface?.resolvedEntryViewController()
         window?.makeKeyAndVisible()
     }
 
@@ -47,7 +48,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
 }
-
